@@ -338,13 +338,13 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "MY负载均衡后端【vless reality+hy1+hy2】": "https://subapi.me1one.qzz.io",
+          "MY负载均衡后端【vless reality+hy1+hy2】": "http://199.180.116.228:25500/version",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://api.v1.mk",
         },
         backendOptions: [
-          { value: "https://subapi.me1one.qzz.io" },
+          { value: "http://199.180.116.228:25500/version" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
           { value: "https://api.v1.mk" },
@@ -784,7 +784,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://subapi.me1one.qzz.io" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "http://199.180.116.228:25500/version" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Mini_Ai.ini",
         excludeRemarks: "",
