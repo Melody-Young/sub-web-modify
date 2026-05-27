@@ -338,15 +338,15 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "MY-v1负载均衡后端【vless reality+hy1+hy2】": "http://subapi.gzyanling.com",
-          "MY-v2负载均衡后端【vless reality+hy1+hy2】": "http://subapi2.gzyanling.com",
+          "MY-v1负载均衡后端【vless reality+hy1+hy2】": "https://subapi.gzyanling.com",
+          "MY-v2负载均衡后端【vless reality+hy1+hy2】": "https://subapi2.gzyanling.com",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://api.v1.mk",
         },
         backendOptions: [
-          { value: "http://subapi.gzyanling.com" },
-          { value: "http://subapi2.gzyanling.com" },
+          { value: "https://subapi.gzyanling.com" },
+          { value: "https://subapi2.gzyanling.com" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
           { value: "https://api.v1.mk" },
@@ -786,7 +786,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "http://subapi.gzyanling.com" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subapi.gzyanling.com" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Mini_Ai.ini",
         excludeRemarks: "",
